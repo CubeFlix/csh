@@ -1,0 +1,1 @@
+{"port": 8001, "host": "%IP%", "secure": ["certificate.pem", "key.pem", "PROTOCOL_TLS_SERVER"], "session_limit": null, "server_name": "%HOSTNAME%", "file_handler": "server.log"}

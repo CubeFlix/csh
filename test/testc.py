@@ -1,0 +1,8 @@
+from client import *
+c = Client(('192.168.0.16', 8001), True)
+c.status()
+c.login("lily.l.liller", "2xwwtizu")
+print(len(c.read("client.zip")))
+print(len(c.read("server.zip")))
+c.logout()
+

@@ -1,0 +1,26 @@
+CSH Error Codes:
+
+1: Session invalid.
+2: Error with logging out.
+3: File/path not found.
+4: Error with using file.
+5: Invalid data type.
+6: Mode is invalid.
+7: Error responding.
+8: Invalid CSH header.
+9: Command ID not in data.
+10: Command ID is invalid.
+11: Error handling connection.
+12: Log in command must have username and password provided.
+13: User doesn't exist.
+14: Invalid password.
+15: Commands must have username and session ID provided.
+16: Invalid session ID.
+17: Error preforming command.
+18: Invalid path.
+19: User does not have permission to preform this command.
+20: Exceeded rate limit.
+21: Serialization error. Data might be too big. Consider sending it in packets.
+22: Error with creating command.
+23: Backup already exists.
+24: Too many sessions for user.
